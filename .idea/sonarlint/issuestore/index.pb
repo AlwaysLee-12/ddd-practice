@@ -1,0 +1,19 @@
+
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+Y
+)src/main/resources/application.properties,0/6/06f65155ec73600b9fc5c4dc2883d4bb84d8e284
+[
++src/main/java/hello/ddd/DddApplication.java,3/8/380409781feaa6972d2877cecabc1d91b3b7e7a9
+c
+3src/main/java/hello/ddd/domainmodel/requirements.md,4/7/47c1d4a4233fb448a8adeeaf6fb88b463f054bfb
+^
+.src/main/java/hello/ddd/domainmodel/Order.java,2/1/217d59745fca99165b1788f4daed4b3307a526b1
+b
+2src/main/java/hello/ddd/domainmodel/OrderLine.java,2/7/27bbf26de81c59a1db209ef8bb9a3014abe77d88
+e
+5src/main/java/hello/ddd/domainmodel/ShippingInfo.java,e/8/e8dba289ee37fe08d8848a2b3f2259d3fdbf01b1
+c
+3src/main/java/hello/ddd/domainmodel/OrderState.java,9/8/98c9f5774af1e4d990e9ab5ae607807197c694bf
+`
+0src/main/java/hello/ddd/domainmodel/Product.java,2/1/213c1edf8a37565119bdeca8af9c55eac7bc3338

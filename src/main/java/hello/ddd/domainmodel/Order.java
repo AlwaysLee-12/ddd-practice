@@ -9,9 +9,10 @@ import java.util.List;
 
 public class Order {
 
+    private OrderNo orderNo;
     private List<OrderLine> orderLines;
     private ShippingInfo shippingInfo;
-    private int totalAmount;
+    private Money totalAmount;
     private OrderState state;
 
     public Order(List<OrderLine> orderLines, ShippingInfo shippingInfo) {
@@ -33,8 +34,8 @@ public class Order {
 
     private void calculateTotalAmount() {
         this.totalAmount = orderLines.stream()
-                .mapToInt(OrderLine::getAmounts)
-                .sum();
+                .map(OrderLine::getAmounts)
+                .reduce(new Money(0), Money::add);
     }
 
     private void setShippingInfo(ShippingInfo shippingInfo) {

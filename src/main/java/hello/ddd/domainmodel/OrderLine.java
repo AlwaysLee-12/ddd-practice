@@ -4,21 +4,21 @@ public class OrderLine {
 
     private Product product;
     private int quantity;
-    private int price;
-    private int amounts;
+    private Money price;
+    private Money amounts;
 
-    public OrderLine(Product product, int quantity, int price) {
+    public OrderLine(Product product, int quantity, Money price) {
         this.product = product;
         this.quantity = quantity;
         this.price = price;
         this.amounts = calculateAmount();
     }
 
-    public int calculateAmount() {
-        return price * quantity;
+    private Money calculateAmount() {
+        return price.multiply(quantity);
     }
 
-    public int getAmounts() {
+    public Money getAmounts() {
         return amounts;
     }
 }

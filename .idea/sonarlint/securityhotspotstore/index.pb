@@ -17,3 +17,11 @@ c
 3src/main/java/hello/ddd/domainmodel/OrderState.java,9/8/98c9f5774af1e4d990e9ab5ae607807197c694bf
 `
 0src/main/java/hello/ddd/domainmodel/Product.java,2/1/213c1edf8a37565119bdeca8af9c55eac7bc3338
+a
+1src/main/java/hello/ddd/domainmodel/Receiver.java,0/2/0259574fd1fc2a2e2ada17e512c3eba63fb15666
+`
+0src/main/java/hello/ddd/domainmodel/Address.java,6/8/68190d9fda688d40e338fe7db1325c64391846d7
+^
+.src/main/java/hello/ddd/domainmodel/Money.java,0/6/0697e97e7b0576b2ef50d64b108c95ae80477ca0
+`
+0src/main/java/hello/ddd/domainmodel/OrderNo.java,a/6/a68cb908aacfd61364ea44d693bec6b8d240ee88

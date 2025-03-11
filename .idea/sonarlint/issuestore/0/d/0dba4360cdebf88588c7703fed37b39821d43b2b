@@ -1,0 +1,11 @@
+
+£
+java:S1450"[Remove the "shippingInfo" field and declare it as a local variable in the relevant methods.(‘òôáûÿÿÿÿ8ÜÎŸŸØ2J$db73ac93-1a0a-4b90-8cde-3160934234ab
+¢
+java:S1450"ZRemove the "totalAmount" field and declare it as a local variable in the relevant methods.(Ó²äõøÿÿÿÿ8İéªÜÔ2J$96f49ec9-45ef-49fd-a6e6-8b26caa73629
+n
+java:S1068"+Remove this unused "orderNo" private field.(¢º¶8ßÎŸŸØ2J$5e3fbcd5-682a-4b11-b865-24c0a067556f
+x
+java:S1068"0Remove this unused "shippingInfo" private field.(‘òôáûÿÿÿÿ8ßÎŸŸØ2J$9f08304c-bf75-46da-b162-4298aee49f27
+w
+java:S1068"/Remove this unused "totalAmount" private field.(Ó²äõøÿÿÿÿ8áéªÜÔ2J$456b6ebd-66d1-4907-9696-2747afa53d0b

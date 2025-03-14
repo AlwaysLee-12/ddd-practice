@@ -5,6 +5,8 @@ import static hello.ddd.domain.order.policy.OrderState.PAYMENT_WAITING;
 import static hello.ddd.domain.order.policy.OrderState.PREPARING;
 import static hello.ddd.domain.order.policy.OrderState.SHIPPED;
 
+import hello.ddd.domain.event.Events;
+import hello.ddd.domain.event.OrderCanceledEvent;
 import hello.ddd.domain.order.vo.Money;
 import hello.ddd.domain.order.vo.OrderNo;
 import hello.ddd.domain.order.policy.OrderState;
@@ -56,6 +58,7 @@ public class Order {
     public void cancel(){
         verifyNotYetShipped();
         this.state = CANCELED;
+        Events.raise(new OrderCanceledEvent(orderNo.getNo()));
     }
 
     private void verifyNotYetShipped() {
